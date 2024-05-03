@@ -20,4 +20,4 @@ jobs:
               pull_number: context.payload.pull_request.number,
               event: "APPROVE"
             });
-            console.log(result.status)
+            console.log(result.status);
